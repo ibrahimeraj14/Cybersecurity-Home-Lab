@@ -1,0 +1,20 @@
+Internet
+      │
+ NAT Adapter
+      │
+───────────────
+ Host Only Network
+      │
+ ┌─────────────┐
+ │ Ubuntu SIEM │
+ │ Elastic     │
+ │ Kibana      │
+ │ Filebeat    │
+ └─────────────┘
+       ▲
+       │ SSH
+       │
+ ┌─────────────┐
+ │ Kali Linux  │
+ │ Hydra       │
+ └─────────────┘
