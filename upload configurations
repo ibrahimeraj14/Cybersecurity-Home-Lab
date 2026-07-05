@@ -1,0 +1,9 @@
+configs/
+
+filebeat.yml
+
+system.yml
+
+elasticsearch.yml
+
+kibana.yml
